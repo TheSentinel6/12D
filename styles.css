@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+header { text-align: center; margin-bottom: 30px; }
+h1 { color: #2c3e50; }
+.slogan { font-style: italic; color: #7f8c8d; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+th { background-color: #3498db; color: white; }
+.name-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+.name-link:hover { text-decoration: underline; }
+.profile-card { text-align: center; }
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3498db;
+    margin-bottom: 15px;
+}
+.message {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.back-btn:hover { background: #2980b9; }
+.class-photo {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
