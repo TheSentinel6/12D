@@ -62,7 +62,6 @@ th { background-color: #3498db; color: white; }
 }
 .back-btn:hover { background: #2980b9; }
 .class-photo {
-    width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
 }
